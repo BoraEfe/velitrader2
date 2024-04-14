@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom:15px;
+    min-width: auto;
+
+    img{
+        width:17px;
+        height:17px;
+        margin-right:4px;
+    }
+    .rank{
+        width:5%;
+        padding-left:10px;
+    }
+    .naam{
+        width:15%;
+    }
+    .uur24{
+        width:18%;
+        flex-direction: row;
+        display: flex;
+    }
+    .prijs{
+        width:15%;
+    }
+
+    .marketcap{
+        width:33%;
+    }
+    .volume{
+        width:18%;
+    }
+
+}
+
+

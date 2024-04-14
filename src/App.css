@@ -1,0 +1,10 @@
+*{
+  padding:unset;
+  margin:unset;
+}
+body{
+  display:flex;
+  align-self:center;
+  justify-content:start;
+  overflow-x: hidden;
+}

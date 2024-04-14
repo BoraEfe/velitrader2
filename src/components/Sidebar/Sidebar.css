@@ -1,0 +1,91 @@
+.Sidebar {
+    width: 80px;
+    min-height: 100vh;
+    background-color: rgb(16, 11, 21);
+    transition: width 0.5s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    position: fixed;
+ 
+    .burger-menu {
+        cursor: pointer;
+        margin-top: 10px;
+        align-self: flex-end;
+        margin-right: 25px;
+        transition: color 0.3s;
+ 
+        &:hover {
+            color: rgb(17, 206, 174);
+        }
+    }
+    .close-menu {
+        cursor: pointer;
+        margin-top: 10px;
+        align-self: flex-end;
+        margin-right: 25px;
+        display: none;
+        transition: color 0.3s;
+ 
+        &:hover {
+            color: rgb(255, 31, 31);
+        }
+    }
+ 
+    nav {
+        margin-top: 50px;
+        ul {
+            li {
+                cursor: pointer;
+                margin-bottom: 10px;
+                list-style: none;
+                transition: color 0.3s;
+                font-size: 18px;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 10px;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none; 
+ 
+                &:hover {
+                    color: rgb(17, 206, 174);
+                }
+ 
+                .link a {
+                    display: none;
+                }
+ 
+                a {
+                    display: none;
+                }
+ 
+                .link {
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    text-decoration: none;
+                    gap:10px;
+                    color: white;
+                    transition: color 0.3s;
+ 
+                    &:hover {
+                        color: rgb(17, 206, 174);
+                    }
+                }
+            }
+        }
+    }
+    .search{
+        background-color: rgb(255, 255, 255);
+        width: 100px;
+        height: 20px;
+        display: none;
+        border-radius: 5px;
+        padding-left:10px;
+    }
+}
